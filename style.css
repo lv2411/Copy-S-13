@@ -1,0 +1,61 @@
+*{
+    font-family:  'Tahoma', sans-serif;
+}
+nav {
+    position: relative;
+    background: #3b3358;
+    color: rgba(255,255,255,.5);
+}
+ul li{
+    list-style-type: none;
+    height: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 1vw;
+}
+A {
+    color: rgba(255,255,255,.5);
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+}
+.cols{
+    display: flex;
+    justify-content:center;
+    align-content: space-between;
+    font-size:large;
+    font-family:  'Tahoma', sans-serif;
+    font-style: italic; /* Курсивное начертание */
+}
+ul.colsNewsList li{
+    display: inline-table;
+    width: 100%;
+    border: 0;
+    vertical-align: top;
+    overflow: hidden;
+    outline-style: none;
+}
+.img{
+    float: left;
+    margin-right: 10px;
+}
+.title{
+    padding: 0;
+    margin: 1vw 1.84vw 0.4vw 1.84vw;
+}
+.titleText {
+    font-size: large;
+    line-height: 1.6vw;
+    font-weight: bold;
+
+}
+button{
+    background: #3b3358;
+    color: rgba(255,255,255,.5);
+    font-size: large;
+    line-height: 1.6vw;
+    font-weight: bold;
+}
+footer{
+    bottom: 0;
+}
+
